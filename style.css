@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+    background: url('https://bebs.org/wp-content/uploads/2019/05/form-background-1024x683.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;  
+
+}
+
+#title {
+  font-family: "Baloo Da 2", cursive;
+  padding-left: 7%;
+  font-size: 5vh;
+  color: white;
+}
+
+#description {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  padding-left: 10%;
+  color: white;
+}
+
+.container {
+  padding: 34px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.container ::before {
+  opacity: 0.6;
+}
+
+#survey-form {
+  position: relative;
+  z-index: 0;
+  background-color: #07040442;
+  border-radius: 6px;
+  margin-top: 11%;
+}
+
+#survey-form::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  filter: blur(2px);
+}
+
+.form-group {
+  color: white;
+  padding: 26px;
+  font-size: 1.12vw;
+}
+
+.form-input {
+  padding: 5px;
+  width: 100%;
+  height: 22px;
+  font-size: 1vw;
+  border-radius: 7px;
+}
+
+#dropdown {
+  cursor: pointer;
+  padding: 7px;
+  width: 102%;
+  border-radius: 7px;
+  font-size: 1vw;
+}
+
+#comments {
+  width: 100%;
+  border-radius: 4px;
+  font-size: 1vw;
+  height: 157px;
+}
+
+#submit {
+  font-family: "Baloo Da 2", cursive;
+  width: 100%;
+  border-radius: 7px;
+  font-size: 1.56vw;
+  background-color: green;
+}
+
+#submit:hover {
+  cursor: pointer;
+  background-color: #1c8b1c;
+}
